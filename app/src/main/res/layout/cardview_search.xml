@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10px"
+    android:layout_marginLeft="30px"
+    android:layout_marginTop="20px"
+    android:layout_marginRight="30px"
+    android:layout_marginBottom="20px"
+    android:background="#F7DCDC"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:weightSum="2"
+    tools:context=".Activities.search">
+
+    <LinearLayout
+        android:id="@+id/Liner_Layout_search"
+        android:layout_width="247dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/date"
+            android:textSize="15sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/client_id"
+            android:textSize="15sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/store_id"
+            android:textSize="15sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/no_of_sacks"
+            android:textSize="15sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/position"
+            android:textSize="15sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Rack_no"
+            android:textSize="15sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Room_no"
+            android:textSize="15sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Type_of_potato"
+            android:textSize="15sp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/show_more_info"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="More >" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Liner_Layout_search2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/date_s"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/date"
+            android:textSize="15sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/ID_by_client_s"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/client_id"
+            android:textSize="15sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/ID_by_store_s"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/store_id"
+            android:textSize="15sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/No_of_sacks_s"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/no_of_sacks"
+            android:textSize="15sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/Position_s"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/position"
+            android:textSize="15sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/Rack_no_s"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Rack_no"
+            android:textSize="15sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/room_no_s"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Room_no"
+            android:textSize="15sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/PotatoType_s"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Type_of_potato"
+            android:textSize="15sp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Delete_Btn_s"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:text="Delete" />
+
+            <Button
+                android:id="@+id/Edit_Btn_s"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:text="Edit" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

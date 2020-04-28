@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">coldstore</string>
+    <string name="Address">Address:</string>
+    <string name="name">Name:</string>
+    <string name="number">Phone:</string>
+    <string name="date">Date:</string>
+    <string name="client_id">ID by Client:</string>
+    <string name="store_id">ID by Store:</string>
+    <string name="no_of_sacks">Number Of Sacks:</string>
+    <string name="position">Position in Rack:</string>
+    <string name="Rack_no">Rack no:</string>
+    <string name="Room_no">Room No:</string>
+    <string name="Type_of_potato">Potato Type:</string>
+
+</resources>

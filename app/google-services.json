@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "836510030276",
+    "firebase_url": "https://coldstore-f02df.firebaseio.com",
+    "project_id": "coldstore-f02df",
+    "storage_bucket": "coldstore-f02df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836510030276:android:59b5fcb03ae5d8ee3aec91",
+        "android_client_info": {
+          "package_name": "com.example.coldstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836510030276-i7o6uk1nequ1cohorkipafr60u87v2ua.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.coldstore",
+            "certificate_hash": "117c08106b07e3e4e392a7d7497567eb3ad6f2c7"
+          }
+        },
+        {
+          "client_id": "836510030276-rh7bcrmgku77d43ilnvotjh63mu50vrj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoOG4A_OJ32Y0-gqlXtjJyv9Lt6NDv3No"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "836510030276-rh7bcrmgku77d43ilnvotjh63mu50vrj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
